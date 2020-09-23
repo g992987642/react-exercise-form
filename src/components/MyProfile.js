@@ -31,7 +31,7 @@ class MyProfile extends Component {
   render() {
 	return (
 		<div className="myProfile">
-		  <p>MyProfile</p>
+		  <p>My Profile</p>
 		  <form>
 			<div className="form-group">
 			  <label htmlFor="name">Name</label>
@@ -58,7 +58,7 @@ class MyProfile extends Component {
 			</div>
 
 			<div className="form-group form-check">
-			  <input type="checkbox" className="form-check-input" id="exampleCheck1" value={this.state.haveReadConduct}
+			  <input type="checkbox" className="form-check-input" id="checkbox" value={this.state.haveReadConduct}
 					 onChange={(event) => {
 					   this.handleChecked(event)
 					 }}/>
